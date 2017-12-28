@@ -26,4 +26,4 @@ RUN chown -R 1001:0 $HOME && \
     chmod -R g+rw $HOME
 
 USER 1001
-ENV PATH=$PATH:/opt/sonar-scanner/bin
+ENV PATH=$PATH:/opt/sonar-scanner/bin:/home/jenkins/.local/bin
